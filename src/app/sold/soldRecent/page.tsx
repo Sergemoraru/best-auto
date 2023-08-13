@@ -49,8 +49,8 @@ export default function SoldRecent() {
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="flex items-center justify-between space-x-4">
-          <h1 className="text-lg font-medium text-gray-900">Sold Cars</h1>
-          <a href="./sold" className="whitespace-nowrap text-sm font-medium text-indigo-600 hover:text-indigo-500">
+          <h1 className="text-lg font-medium text-zinc-700">Sold Cars</h1>
+          <a href="./sold" className="whitespace-nowrap text-sm font-medium text-blue-600 hover:text-blue-500">
             View all
             <span aria-hidden="true"> &rarr;</span>
           </a>

@@ -19,3 +19,18 @@ model User {
   phone       String? @unique
   comment     String?
 }
+
+
+model Car {
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  year        Int?
+  make        String 
+  model       String  
+  description String?
+  price       Int?
+  image       String?
+  color       String?
+  status      String?
+}
+
